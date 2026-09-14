@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../Ejercicio7/src/script.js" defer></script>
+</head>
+<body>
+    <h1>Examen Múltiple Choice</h1>
+    <form>
+        <p>1. ¿Cuál es la capital de Francia?</p>
+        <select id="respuesta1">
+            <option value="a">Londres</option>
+            <option value="b">París</option>
+            <option value="c">Roma</option>
+            <option value="d">Berlín</option>
+        </select>
+
+        <p>2. ¿Cuál es el río más largo del mundo?</p>
+        <select id="respuesta2">
+            <option value="a">Río Amazonas</option>
+            <option value="b">Río Nilo</option>
+            <option value="c">Río Misisipi</option>
+            <option value="d">Río Yangtze</option>
+        </select>
+
+        <p>3. ¿Cuál es el continente más grande?</p>
+        <select id="respuesta3">
+            <option value="a">África</option>
+            <option value="b">América</option>
+            <option value="c">Asia</option>
+            <option value="d">Europa</option>
+        </select>
+
+        <p>4. ¿Cuál es el océano más grande?</p>
+        <select id="respuesta4">
+            <option value="a">Océano Atlántico</option>
+            <option value="b">Océano Índico</option>
+            <option value="c">Océano Pacífico</option>
+            <option value="d">Océano Ártico</option>
+        </select>
+
+        <button type="button" onclick="calcularResultados()">Calcular Resultados</button>
+    </form>
+
+    <p id="resultado"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
